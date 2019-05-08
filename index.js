@@ -15,6 +15,8 @@ app.use(
 
 // TODO: Base routes
 router.use('/halls', hallsHandler);
+
+
 // Test route
 router.get('/', (req, res) => {
   res.send('ok');
